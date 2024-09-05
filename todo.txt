@@ -1,0 +1,8 @@
+- finish the core functionalities
+- proxy
+- scanner for usernames (https://hackertarget.com/wordpress-user-enumeration/)
+- a GOOD way of avoiding wafs or getting blocked in general
+- save already tried passwords
+- telegram notifications
+- background scans
+- add passwords/username on-the-fly

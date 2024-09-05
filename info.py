@@ -6,6 +6,6 @@ Logo = '''
 /_/  \___/____/\__/\__,_/_____/\__,_/_/   \__,_/  
 '''
 
-Version = '0.1'
+Version = 'v0.1-alpha'
 
 Creator = 'Daniele Giardina'
