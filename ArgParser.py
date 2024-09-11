@@ -1,6 +1,6 @@
 import argparse
 
-def parser() -> argparse.NameSpace:
+def ArgParser() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Bruteforce Wordpress login")
     parser.add_argument('-t','--target', help="target's login page")
     parser.add_argument('-p','--passw', help="password wordlist")

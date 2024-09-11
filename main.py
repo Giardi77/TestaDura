@@ -1,5 +1,5 @@
 import utils
-import parser
+import ArgParser
 import core
 
 Passwords = []
@@ -9,7 +9,7 @@ def main(args):
     Target = args.target
     Session, htmlPage = utils.Prepare(Target)
     FormPayload = core.ExtractPayload(htmlPage)
-    
+
 
 if __name__=='__main__':
-    main(parser.parser())
+    main(ArgParser.ArgParser())
